@@ -6,3 +6,6 @@ var campos= [
 
 console.log(campos);
 
+document.querySelector(".form").addEventListener('submit',function(event){
+       alert("Oi");
+});
